@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: lightslategray;
+    font-family: 'Roboto', sans-serif;;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content .wrap{
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+.header{
+    background: darkblue;
+}
+.meinmenu{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+.logo{
+    flex-basis: 40%;
+}
+.last{
+    flex-basis: 30%;
+    text-align: right;
+    color: lightseagreen;
+}
+.sidebar ul{
+    width: 200px;
+    margin-top: 60px;
+    margin-right: 30px;
+
+}
+.sidebar a{
+    padding: 20px;
+    background: tan;
+    display: block;
+    border: 3px solid white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.selected{
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    background: yellow;
+}
+.main li{
+    border: 2px solid rgb(51, 104, 80);
+    margin-bottom: 10px;
+}
+
+.image{
+    max-width: 17%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.first, .date{
+    padding: 10px 20px;
+    background: rgb(51, 104, 80);
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+.text{
+    padding: 20px 20px 0;
+}
+.text a{
+    padding-left: 0;
+}
+.text a:hover{
+    color: violet;
+}
+.post h1{
+    margin-top: 0;
+}
+.post{
+    font-size: 16px;
+}
+.form-input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+button{
+    background: rgb(9, 208, 158);
+    border: 5px solid darkblue;
+    width: 400px;
+    
+    font-size: 21px;
+    font-weight: bold;
+    color: red;
+    align-items: center;
+    cursor: pointer;
+}
+form label{
+    font-size: 20px
+}
+.list-pages{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+.page-num{
+    margin: 6px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: gray;
+}
+.page-num-selected{
+    background: olivedrab;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: yellow;
+}
+.list-pages a{
+    background: gray;
+    
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+input, textarea{
+    width: 70%;
+    margin-top: 7px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+label{
+    font-size: 20px;
+}
+#id_is_published{
+    width: 20px;
+    height: 20px;
+}
+#id_cat{
+    font-size: 20px;
+    padding: 20px;
+}
+#id_cat{
+    font-size: 20px;
+    padding: 4px;
+}
+.last a{
+    display: inline;
+}
+.logout h2{
+    margin-bottom: 40px;
+}
+.logout a{
+    background: mediumvioletred;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 86px;
+}
